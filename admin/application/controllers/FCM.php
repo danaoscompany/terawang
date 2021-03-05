@@ -134,7 +134,7 @@ class FCM extends CI_Controller {
 
     /*
      *
-     * curl -X POST -H "Authorization: key=AAAAZkzF8SI:APA91bFrx3OFLIXoLwWA2ovvI3j0UI8x4_yH053j7aWTWeR1O01P8FidSCr_uqE9rAlw0nuod3hWJrPrM7i-kkOMOX4H0_oD03dB9pUb1F13WDppVpiHoNO9_-uFnyIDuRXleAJrZQEl" -H "Content-Type: application/json" -d '{"notification": {"title": "Portugal vs. Denmark","body": "5 to 1","icon": "firebase-logo.png","click_action": "http://localhost:8081"},"to": "cMmyRbRH37jcIO6XS2Tj2f:APA91bGYneiAkNLKGuuTplS2e6_F7RdlQSWd85aIODXTGc6UIa1cPYKLdjoYz8GlOT1Tnq4FTwAcgt6LZWm9pvsftsoumLt95wKC3sy5M2HZry_e2SQzVM8fmUUfGay0m6sIXkbEUi1k"}' "https://fcm.googleapis.com/fcm/send"
+     * curl -X POST -H "Authorization: key=AAAAZkzF8SI:APA91bFrx3OFLIXoLwWA2ovvI3j0UI8x4_yH053j7aWTWeR1O01P8FidSCr_uqE9rAlw0nuod3hWJrPrM7i-kkOMOX4H0_oD03dB9pUb1F13WDppVpiHoNO9_-uFnyIDuRXleAJrZQEl" -H "Content-Type: application/json" -d '{"notification": {"title": "Portugal vs. Denmark","body": "5 to 1","icon": "firebase-logo.png","click_action": "http://terawang.co:8081"},"to": "cMmyRbRH37jcIO6XS2Tj2f:APA91bGYneiAkNLKGuuTplS2e6_F7RdlQSWd85aIODXTGc6UIa1cPYKLdjoYz8GlOT1Tnq4FTwAcgt6LZWm9pvsftsoumLt95wKC3sy5M2HZry_e2SQzVM8fmUUfGay0m6sIXkbEUi1k"}' "https://fcm.googleapis.com/fcm/send"
      *
      */
 }
