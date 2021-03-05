@@ -420,15 +420,18 @@
 				<div style="width: 50%; height: 100%; display: flex; flex-direction: column; padding-left: 80px; justify-content: center;">
 					<div style="color: #F9D366; font-size: 14px; font-family: 'RalewayBold';">I K U T I  K A M I  D I</div>
 					<div style="display: flex; flex-direction: row; margin-top: 12px;">
-						<div style="width: 40px; height: 40px; cursor: pointer;">
+						<div style="width: 40px; height: 40px; cursor: pointer;"
+							onclick="window.location.href='https://www.instagram.com/terawang'">
 							<img src="http://terawang.co/terawang/assets/images/ig.png"
 								 width="24px" height="24px">
 						</div>
-						<div style="width: 40px; height: 40px; cursor: pointer;">
+						<div style="width: 40px; height: 40px; cursor: pointer;"
+							 onclick="window.location.href='https://www.facebook.com/terawang'">
 							<img src="http://terawang.co/terawang/assets/images/fb.png"
 								 width="24px" height="24px">
 						</div>
-						<div style="width: 40px; height: 40px; cursor: pointer;">
+						<div style="width: 40px; height: 40px; cursor: pointer;"
+							 onclick="window.location.href='https://twitter.com/terawang'">
 							<img src="http://terawang.co/terawang/assets/images/twitter.png"
 								 width="24px" height="24px">
 						</div>
@@ -437,7 +440,7 @@
 			</div>
 			<div style="width: 100%; height: 80px; background-color: #1C1C1C; display: flex; justify-content: center; align-items: center;">
 				<div style="color: #A4A4A4; font-size: 14px; font-family: 'OpenSansSemiBold';">
-					© 2021 Terawang. All Rights Reserved
+					© <span id="year"></span> Terawang. All Rights Reserved
 				</div>
 			</div>
 		</div>
@@ -456,12 +459,14 @@
 	</div>
 </div>
 <script src="http://terawang.co/terawang/assets/js/jquery.js"></script>
+<script src="http://terawang.co/terawang/assets/js/moment.js"></script>
 <script>
 	var faq1Expanded = false;
 	var faq2Expanded = false;
 	var faq3Expanded = false;
 
 	$(document).ready(function () {
+		$("#year").val(""+moment(new Date()).format('YYYY'));
 	});
 
 	function playVideo() {
