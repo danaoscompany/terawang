@@ -3,31 +3,31 @@
 <html>
 <head>
 	<title>Terawang</title>
-	<link rel="icon" href="http://terawang.co/terawang/assets/images/ball.png" type="image/png" sizes="16x16">
+	<link rel="icon" href="http://terawang.co/landing_page/assets/images/ball.png" type="image/png" sizes="16x16">
 	<style>
 		@font-face {
 			font-family: MuktaLight;
-			src: url("http://terawang.co/terawang/assets/fonts/MuktaLight.ttf");
+			src: url("http://terawang.co/landing_page/assets/fonts/MuktaLight.ttf");
 		}
 
 		@font-face {
 			font-family: ElaDemiSerifBold;
-			src: url("http://terawang.co/terawang/assets/fonts/ElaDemiSerifBold.ttf");
+			src: url("http://terawang.co/landing_page/assets/fonts/ElaDemiSerifBold.ttf");
 		}
 
 		@font-face {
 			font-family: RalewayBold;
-			src: url("http://terawang.co/terawang/assets/fonts/Raleway-Bold.ttf");
+			src: url("http://terawang.co/landing_page/assets/fonts/Raleway-Bold.ttf");
 		}
 
 		@font-face {
 			font-family: OpenSansSemibold;
-			src: url("http://terawang.co/terawang/assets/fonts/OpenSans-Semibold.ttf");
+			src: url("http://terawang.co/landing_page/assets/fonts/OpenSans-Semibold.ttf");
 		}
 
 		@font-face {
 			font-family: RalewayMedium;
-			src: url("http://terawang.co/terawang/assets/fonts/Raleway-Medium.ttf");
+			src: url("http://terawang.co/landing_page/assets/fonts/Raleway-Medium.ttf");
 		}
 
 		body {
@@ -40,10 +40,10 @@
 <body>
 <div style="width: 100%; position: absolute; left: 0; top: 0;">
 	<div style="position: relative; width: 100%;">
-		<img src="http://terawang.co/terawang/assets/images/header_bg.jpg"
+		<img src="http://terawang.co/landing_page/assets/images/header_bg.jpg"
 			 width="100%" height="600px" style="object-fit: cover;">
 		<div style="position: absolute; left: 32px; top: 32px; display: flex; flex-direction: row; align-items: center;">
-			<img src="http://terawang.co/terawang/assets/images/ball.png"
+			<img src="http://terawang.co/landing_page/assets/images/ball.png"
 				 width="40px" height="40px">
 			<div style="color: #ffffff; font-size: 30px; font-family: 'ElaDemiSerifBold'; margin-left: 12px;">Terawang
 			</div>
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 		</div>
-		<img src="http://terawang.co/terawang/assets/images/phones.png"
+		<img src="http://terawang.co/landing_page/assets/images/phones.png"
 			 width="360px" height="460px" style="position: absolute; top: 110px; right: 168px;">
 	</div>
 	<div style="position: relative; width: 100%; height: 385px; background-color: #5b007b; margin-bottom: 200px;">
@@ -110,7 +110,7 @@
 					border-top-right-radius: 8px;
 					border-bottom-right-radius: 0;
 					display: flex; justify-content: center; align-items: center;">
-						<img src="http://terawang.co/terawang/assets/images/img1.png"
+						<img src="http://terawang.co/landing_page/assets/images/img1.png"
 							 width="90px" height="90px" style="object-fit: contain; margin-top: 52px;">
 					</div>
 					<div style="width: 100%; height: 80px; position: relative; overflow: hidden;">
@@ -144,7 +144,7 @@
 					border-top-right-radius: 8px;
 					border-bottom-right-radius: 0;
 					display: flex; justify-content: center; align-items: center;">
-						<img src="http://terawang.co/terawang/assets/images/img2.png"
+						<img src="http://terawang.co/landing_page/assets/images/img2.png"
 							 width="90px" height="90px" style="object-fit: contain; margin-top: 52px;">
 					</div>
 					<div style="width: 100%; height: 80px; position: relative; overflow: hidden;">
@@ -178,7 +178,7 @@
 					border-top-right-radius: 8px;
 					border-bottom-right-radius: 0;
 					display: flex; justify-content: center; align-items: center;">
-						<img src="http://terawang.co/terawang/assets/images/img3.png"
+						<img src="http://terawang.co/landing_page/assets/images/img3.png"
 							 width="90px" height="90px" style="object-fit: contain; margin-top: 52px;">
 					</div>
 					<div style="width: 100%; height: 80px; position: relative; overflow: hidden;">
@@ -212,7 +212,7 @@
 					border-top-right-radius: 8px;
 					border-bottom-right-radius: 0;
 					display: flex; justify-content: center; align-items: center;">
-						<img src="http://terawang.co/terawang/assets/images/img4.png"
+						<img src="http://terawang.co/landing_page/assets/images/img4.png"
 							 width="90px" height="90px" style="object-fit: contain; margin-top: 52px;">
 					</div>
 					<div style="width: 100%; height: 80px; position: relative; overflow: hidden;">
@@ -249,13 +249,13 @@
 					src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG"
 					frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			<div id="play-video-container" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%;">
-				<img src="http://terawang.co/terawang/assets/images/video.png"
+				<img src="http://terawang.co/landing_page/assets/images/video.png"
 					 width="100%" height="100%">
 			</div>
 			<div id="play-video-button" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; cursor: pointer;
 				display: flex; justify-content: center; align-items: center;"
 				 onclick="playVideo()">
-				<img src="http://terawang.co/terawang/assets/images/play.png"
+				<img src="http://terawang.co/landing_page/assets/images/play.png"
 					 width="70px" height="70px">
 			</div>
 		</div>
@@ -268,7 +268,7 @@
 				Bagaimana Terawang Memberitahu<br/>Keberuntungan Anda?
 			</div>
 			<div style="width: 110px; height: 5px; background-color: #e6a6ae; margin-top: 14px;"></div>
-			<img src="http://terawang.co/terawang/assets/images/apps.png"
+			<img src="http://terawang.co/landing_page/assets/images/apps.png"
 				 width="700px" height="400px" style="position: absolute; top: 150px; left: calc((100%/2)-100px);">
 		</div>
 	</div>
@@ -374,7 +374,7 @@
 				<div onclick="expandFAQ1()" style="width: 576px; height: 45px; background-color: #c65bf3; border-radius: 8px; cursor: pointer;
 				display: flex; align-items: center; padding-left: 24px; color: #ffffff; font-family: 'OpenSansSemibold'; position: relative;">
 					Bagaimana Cara Menggunakan Terawang?
-					<img src="http://terawang.co/terawang/assets/images/up.png" width="14px" height="8px"
+					<img src="http://terawang.co/landing_page/assets/images/up.png" width="14px" height="8px"
 						 style="position: absolute; top: 16px; right: 20px;">
 				</div>
 				<div style="color: #ffffff; font-size: 15px; margin-top: 8px; margin-left: 24px; margin-right: 24px; text-align: justify;">
@@ -388,7 +388,7 @@
 				<div onclick="expandFAQ2()" style="width: 576px; height: 45px; background-color: #c65bf3; border-radius: 8px; cursor: pointer;
 				display: flex; align-items: center; padding-left: 24px; color: #ffffff; font-family: 'OpenSansSemibold'; position: relative;">
 					Cara Mengubah Data Diri?
-					<img src="http://terawang.co/terawang/assets/images/up.png" width="14px" height="8px"
+					<img src="http://terawang.co/landing_page/assets/images/up.png" width="14px" height="8px"
 						 style="position: absolute; top: 16px; right: 20px;">
 				</div>
 				<div style="color: #ffffff; font-size: 15px; margin-top: 8px; margin-left: 24px; margin-right: 24px; text-align: justify;">
@@ -401,7 +401,7 @@
 				<div onclick="expandFAQ3()" style="width: 576px; height: 45px; background-color: #c65bf3; border-radius: 8px; cursor: pointer;
 				display: flex; align-items: center; padding-left: 24px; color: #ffffff; font-family: 'OpenSansSemibold'; position: relative;">
 					Cara Mendapatkan Kredit Poin?
-					<img src="http://terawang.co/terawang/assets/images/up.png" width="14px" height="8px"
+					<img src="http://terawang.co/landing_page/assets/images/up.png" width="14px" height="8px"
 						 style="position: absolute; top: 16px; right: 20px;">
 				</div>
 				<div style="color: #ffffff; font-size: 15px; margin-top: 8px; margin-left: 24px; margin-right: 24px; text-align: justify;">
@@ -424,17 +424,17 @@
 					<div style="display: flex; flex-direction: row; margin-top: 12px;">
 						<div style="width: 40px; height: 40px; cursor: pointer;"
 							onclick="window.location.href='https://www.instagram.com/terawang'">
-							<img src="http://terawang.co/terawang/assets/images/ig.png"
+							<img src="http://terawang.co/landing_page/assets/images/ig.png"
 								 width="24px" height="24px">
 						</div>
 						<div style="width: 40px; height: 40px; cursor: pointer;"
 							 onclick="window.location.href='https://www.facebook.com/terawang'">
-							<img src="http://terawang.co/terawang/assets/images/fb.png"
+							<img src="http://terawang.co/landing_page/assets/images/fb.png"
 								 width="24px" height="24px">
 						</div>
 						<div style="width: 40px; height: 40px; cursor: pointer;"
 							 onclick="window.location.href='https://twitter.com/terawang'">
-							<img src="http://terawang.co/terawang/assets/images/twitter.png"
+							<img src="http://terawang.co/landing_page/assets/images/twitter.png"
 								 width="24px" height="24px">
 						</div>
 					</div>
@@ -450,18 +450,18 @@
 			<div style="font-size: 27px; font-family: 'RalewayMedium'; margin-top: 32px;"><span style="color: #272727;">Unduh</span>
 				<span style="color: #52057B;">Terawang</span> <span style="color: #272727;">Sekarang!</span></div>
 			<div style="display: flex; flex-direction: row; margin-top: 32px; margin-bottom: 24px;">
-				<img src="http://terawang.co/terawang/assets/images/btn_playstore.png" width="284px" height="80px"
+				<img src="http://terawang.co/landing_page/assets/images/btn_playstore.png" width="284px" height="80px"
 					 style="margin-right: 16px; cursor: pointer;"
 					onclick="window.open('https://play.google.com/store/apps/details?id=com.prod.fortuneteller', '_blank')">
-				<img src="http://terawang.co/terawang/assets/images/btn_appstore.png" width="284px" height="80px"
+				<img src="http://terawang.co/landing_page/assets/images/btn_appstore.png" width="284px" height="80px"
 					 style="margin-left: 16px; cursor: pointer;"
 					 onclick="window.open('https://www.apple.com/app-store/', '_blank')">
 			</div>
 		</div>
 	</div>
 </div>
-<script src="http://terawang.co/terawang/assets/js/jquery.js"></script>
-<script src="http://terawang.co/terawang/assets/js/moment.js"></script>
+<script src="http://terawang.co/landing_page/assets/js/jquery.js"></script>
+<script src="http://terawang.co/landing_page/assets/js/moment.js"></script>
 <script>
 	var faq1Expanded = false;
 	var faq2Expanded = false;
