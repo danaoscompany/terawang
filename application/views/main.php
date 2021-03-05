@@ -2,6 +2,7 @@
 ?>
 <html>
 <head>
+	<link rel="icon" href="http://terawang.co/terawang/assets/images/ball.png" type="image/png" sizes="16x16">
 	<style>
 		@font-face {
 			font-family: MuktaLight;
