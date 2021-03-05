@@ -466,7 +466,7 @@
 	var faq3Expanded = false;
 
 	$(document).ready(function () {
-		$("#year").val(""+moment(new Date()).format('YYYY'));
+		$("#year").html(""+moment(new Date()).format('YYYY'));
 	});
 
 	function playVideo() {
