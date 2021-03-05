@@ -180,7 +180,19 @@ class User extends CI_Controller {
 		$date = $this->input->post('date');
 		$month = intval($this->input->post('month'));
 		$year = intval($this->input->post('year'));
+		$questionsAsked = intval($this->input->post('questions_asked'));
+		// User details
+		$name = $this->input->post('name');
+		$gender = $this->input->post('gender');
+		$birthday = $this->input->post('birthday');
+		$job = $this->input->post('job');
+		$relationship = $this->input->post('relationship');
+		$birthTime = $this->input->post('birth_time');
+		$birthPlace = $this->input->post('birth_place');
 		$user = $this->db->query("SELECT * FROM `users` WHERE `id`=" . $userID)->row_array();
+		if (intval($user['questions_asked']) <= 0) {
+			$this->db->query("UPDATE `users` SET `name`='" . $name . "', `gender`='" . $gender . "', `birthday`='" . $birthday . "', `job`='" . $job . "', `relationship_status`='" . $relationship . "', `birth_time`='" . $birthTime . "', `birth_place`='" . $birthPlace . "', `question_profile_completed`=1 WHERE `id`=" . $userID);
+		}
 		$lastQuestionDate = $user['last_question_date'];
 		//$this->send_question_to_admin($userID, $question, $date, 1);
 		$freeQuestionsAsked = intval($user['free_questions_asked']);
@@ -257,6 +269,7 @@ class User extends CI_Controller {
 			'date' => $date
 		));
 		$questionID = $this->db->insert_id();
+		$this->db->query("UPDATE `users` SET `questions_asked`=`questions_asked`+1 WHERE `id`=" . $userID);
 		if ($premium == 0) {
 			if ($credits > 0) {
 				$this->db->query("UPDATE `users` SET `credits`=`credits`-1 WHERE `id`=" . $userID);
