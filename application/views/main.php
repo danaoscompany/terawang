@@ -45,7 +45,7 @@
 		<div style="position: absolute; left: 32px; top: 32px; display: flex; flex-direction: row; align-items: center;">
 			<img src="http://terawang.co/landing_page/assets/images/ball.png"
 				 width="40px" height="40px">
-			<div style="color: #ffffff; font-size: 30px; font-family: 'ElaDemiSerifBold'; margin-left: 12px;">Terawang
+			<div style="color: #ffffff; font-size: 40px; font-family: 'ElaDemiSerifBold'; margin-left: 12px;">Terawang
 			</div>
 		</div>
 		<div style="position: absolute; right: 32px; top: 32px; display: flex; flex-direction: row; align-items: center; visibility: hidden;">
@@ -77,7 +77,8 @@
 				background-image: linear-gradient(45deg, #a644d8, #8c14be); cursor: pointer;
 				justify-content: center; align-items: center; display: flex;"
 				onclick="window.open('https://play.google.com/store/apps/details?id=com.prod.fortuneteller', '_blank')">
-				<div style="color: #ffffff; font-size: 24px; font-weight: bold; font-family: 'MuktaLight';">
+				<div style="color: #ffffff; font-size: 24px; font-weight: bold; font-family: 'MuktaLight';"
+					onclick="window.open('https://play.google.com/store/apps/details?id=com.prod.fortuneteller', '_blank')">
 					COBA SEKARANG
 				</div>
 			</div>
@@ -121,11 +122,11 @@
 				</div>
 				<div style="display: flex; justify-content: center; align-items: center; color: #000000;
 					font-family: 'MuktaLight'; display: flex; flex-direction: column; justify-content: center;">
-					<div style="font-size: 28px; font-weight: bold;">
-						Jadikan Diri Lebih Baik
+					<div style="font-size: 28px; font-weight: bold; text-align: center;">
+						For A Better You
 					</div>
-					<div style="font-size: 20px; margin-top: -8px;">
-						Untuk kamu yang lebih baik
+					<div style="font-size: 20px; margin-top: 4px; text-align: center; line-height: 28px;">
+						Dengan membaca ini diharapkan bisa membuat Anda menjadi lebih baik
 					</div>
 				</div>
 			</div>
@@ -155,11 +156,11 @@
 				</div>
 				<div style="display: flex; justify-content: center; align-items: center; color: #000000;
 					font-family: 'MuktaLight'; display: flex; flex-direction: column; justify-content: center;">
-					<div style="font-size: 28px; font-weight: bold;">
-						Pertanyaan Saya
+					<div style="font-size: 28px; font-weight: bold; text-align: center;">
+						Answer My Question
 					</div>
-					<div style="font-size: 20px; margin-top: -8px;">
-						Bantu jawab & kirim pertanyaan
+					<div style="font-size: 20px; margin-top: 4px; text-align: center; line-height: 28px;">
+						Silahkan bertanya disini
 					</div>
 				</div>
 			</div>
@@ -189,11 +190,11 @@
 				</div>
 				<div style="display: flex; justify-content: center; align-items: center; color: #000000;
 					font-family: 'MuktaLight'; display: flex; flex-direction: column; justify-content: center;">
-					<div style="font-size: 28px; font-weight: bold;">
-						Testimoni
+					<div style="font-size: 28px; font-weight: bold; text-align: center;">
+						Testimony
 					</div>
-					<div style="font-size: 20px; margin-top: -8px;">
-						Apa kata mereka tentang kami
+					<div style="font-size: 20px; margin-top: 4px; text-align: center; line-height: 28px;">
+						Apa kata mereka tentang kami?
 					</div>
 				</div>
 			</div>
@@ -223,11 +224,11 @@
 				</div>
 				<div style="display: flex; justify-content: center; align-items: center; color: #000000;
 					font-family: 'MuktaLight'; display: flex; flex-direction: column; justify-content: center;">
-					<div style="font-size: 28px; font-weight: bold;">
-						Cara Kerja
+					<div style="font-size: 28px; font-weight: bold; text-align: center;">
+						How Does It Work
 					</div>
-					<div style="font-size: 20px; margin-top: -8px;">
-						Bagaimana kami membantu anda
+					<div style="font-size: 20px; margin-top: 4px; text-align: center; line-height: 28px;">
+						Bagaimana kami membantu Anda disini
 					</div>
 				</div>
 			</div>
@@ -246,7 +247,6 @@
 		</div>
 		<div style="position: relative; width: 760px; height: 515px; margin-right: 100px;">
 			<iframe id="video" width="100%" height="100%" style="visibility: hidden;"
-					src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG"
 					frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			<div id="play-video-container" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%;">
 				<img src="http://terawang.co/landing_page/assets/images/video.png"
@@ -414,26 +414,21 @@
 			<div style="width: 100%; height: 200px; background-color: #272727; display: flex; flex-direction: row;">
 				<div style="width: 50%; height: 100%; display: flex; flex-direction: column; padding-left: 80px; justify-content: center;">
 					<div style="color: #F9D366; font-size: 14px; font-family: 'RalewayBold';">A L A M A T  K A M I</div>
-					<div style="color: #ffffff; font-size: 13px; font-family: 'OpenSansSemibold'; margin-top: 4px;">
-						Gedung Tinggi, Lt 5 Blok A12<br/>
-						Kec. Kebon Jeruk Jakarta Pusat, Indonesia
+					<div id="address" style="color: #ffffff; font-size: 13px; font-family: 'OpenSansSemibold'; margin-top: 4px;">
 					</div>
 				</div>
 				<div style="width: 50%; height: 100%; display: flex; flex-direction: column; padding-left: 80px; justify-content: center;">
 					<div style="color: #F9D366; font-size: 14px; font-family: 'RalewayBold';">I K U T I  K A M I  D I</div>
 					<div style="display: flex; flex-direction: row; margin-top: 12px;">
-						<div style="width: 40px; height: 40px; cursor: pointer;"
-							onclick="window.location.href='https://www.instagram.com/terawang'">
+						<div id="ig" style="width: 40px; height: 40px; cursor: pointer;">
 							<img src="http://terawang.co/landing_page/assets/images/ig.png"
 								 width="24px" height="24px">
 						</div>
-						<div style="width: 40px; height: 40px; cursor: pointer;"
-							 onclick="window.location.href='https://www.facebook.com/terawang'">
+						<div id="fb" style="width: 40px; height: 40px; cursor: pointer;">
 							<img src="http://terawang.co/landing_page/assets/images/fb.png"
 								 width="24px" height="24px">
 						</div>
-						<div style="width: 40px; height: 40px; cursor: pointer;"
-							 onclick="window.location.href='https://twitter.com/terawang'">
+						<div id="twitter" style="width: 40px; height: 40px; cursor: pointer;">
 							<img src="http://terawang.co/landing_page/assets/images/twitter.png"
 								 width="24px" height="24px">
 						</div>
@@ -442,7 +437,7 @@
 			</div>
 			<div style="width: 100%; height: 80px; background-color: #1C1C1C; display: flex; justify-content: center; align-items: center;">
 				<div style="color: #A4A4A4; font-size: 14px; font-family: 'OpenSansSemiBold';">
-					© <span id="year"></span> Terawang. All Rights Reserved
+					© <span id="copyright"></span>
 				</div>
 			</div>
 		</div>
@@ -455,7 +450,7 @@
 					onclick="window.open('https://play.google.com/store/apps/details?id=com.prod.fortuneteller', '_blank')">
 				<img src="http://terawang.co/landing_page/assets/images/btn_appstore.png" width="284px" height="80px"
 					 style="margin-left: 16px; cursor: pointer;"
-					 onclick="window.open('https://www.apple.com/app-store/', '_blank')">
+					 onclick="alert('Coming Soon');">
 			</div>
 		</div>
 	</div>
@@ -468,7 +463,17 @@
 	var faq3Expanded = false;
 
 	$(document).ready(function () {
-		$("#year").html(""+moment(new Date()).format('YYYY'));
+		fetch("http://terawang.co/landing_page/user/get_settings")
+			.then(response => response.text())
+			.then(async (response) => {
+				let settings = JSON.parse(response);
+				$("#ig").attr("onclick", "window.open('"+settings['ig_link']+"', '_blank')");
+				$("#fb").attr("onclick", "window.open('"+settings['fb_link']+"', '_blank')");
+				$("#twitter").attr("onclick", "window.open('"+settings['twitter_link']+"', '_blank')");
+				$("#address").html(settings['address'].replace("\\n", "<br />"));
+				$("#copyright").html(settings['copyright']);
+				$("#video").attr("src", "https://www.youtube.com/embed/"+settings['promo_video']);
+			});
 	});
 
 	function playVideo() {
